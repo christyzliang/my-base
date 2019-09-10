@@ -1,0 +1,57 @@
+/* HEADINGS */
+h1 {
+    font-family: 'moderno-fb', serif;
+    font-size: 3em;
+    margin: .5em 0;
+    line-height:1 ;
+}
+
+h2 {
+    font-family: 'quiche-sans', sans-serif;
+    font-size: 2em;
+    line-height: 1.1;
+}
+
+h3 {
+    font-size: 1em;
+    line-height: 1.2;
+}
+
+p {
+    max-width: 35em;
+}
+
+/* BODY */
+
+body {
+    font-family: 'quiche-sans', sans-serif;
+    font-size: 100%;
+    line-height: 1.4;
+    color: $color-text-body;
+}
+
+// LNKS
+a { color: $color-links;}
+a:hover { color: $color-links-dark;}
+
+
+/* HORIZONTAL RULE */
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: rbga(0,0,0,.15);
+    margin: 3em;
+}
+
+/* TYPE SPECIMEN */
+
+.mainhead {
+    font-size: 6em;
+    $color-accent: red;
+}
+
+.subhead {
+    $body-font-family: 'quiche-sans', sans-serif;
+    $color-midgrey: rbga (0,0,0,.5);
+}

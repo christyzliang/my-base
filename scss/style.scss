@@ -1,5 +1,19 @@
 // VARIABLES
-$mybodybackground: pink;
+$mybodybackground: rgb(122, 184, 122);
+$body-font-family: 'quiche-sans', sans-serif;
+$heading-font-family: 'moderno-fb', serif;
+
+// COLORS
+$color-text-body: rgba(0,0,0,.8);
+$color-accent: rbga(255,153,0,1);
+$color-midgrey: rbga(0,0,0,.5);
+$color-links: #060;
+$color-links-dark: #035;
+
+//IMPORT PARTIALS
+@import "partials/toc";  
+@import "partials/typography";
+@import "partials/buttons";
 
 body {
     background-color: $mybodybackground;

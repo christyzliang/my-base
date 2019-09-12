@@ -4,6 +4,7 @@ h1 {
     font-size: 3em;
     margin: .5em 0;
     line-height:1 ;
+    color: rgb(3, 78, 15);
 }
 
 h2 {
@@ -40,7 +41,7 @@ a:hover { color: $color-links-dark;}
 hr {
     border: 0;
     height: 1px;
-    background-color: rbga(0,0,0,.15);
+    background-color: rgba(0,0,0,.15);
     margin: 3em;
 }
 
@@ -48,10 +49,10 @@ hr {
 
 .mainhead {
     font-size: 6em;
-    $color-accent: red;
+    $color-accent: rgba(1, 8, 0, 0.5);
 }
 
 .subhead {
     $body-font-family: 'quiche-sans', sans-serif;
-    $color-midgrey: rbga (0,0,0,.5);
+    $color-midgrey: rgba(0, 0, 0, 0.5);
 }

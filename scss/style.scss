@@ -1,19 +1,27 @@
 // VARIABLES
-$mybodybackground: rgba(122,184,122,1);
+$mybodybackground: rgb(122, 184, 122);
 $body-font-family: 'quiche-sans', sans-serif;
 $heading-font-family: 'moderno-fb', serif;
 
 // COLORS
-$color-text-body: rgba(0, 0, 0, 0.8);
-$color-accent: rbga(255,153,0,1.0);
+$color-text-body: rgba(0,0,0,.8);
+$color-accent: rbga(255,153,0,1);
 $color-midgrey: rbga(0,0,0,.5);
 $color-links: #060;
 $color-links-dark: #035;
+
+//BREAKPOINTS
+$breakpoint-small: 786px;
+$breakpoint-medium: 1050px;
+$breakpoint-large: 1250px;
 
 //IMPORT PARTIALS
 @import "partials/toc";  
 @import "partials/typography";
 @import "partials/buttons";
+@import "partials/media";
+@import "partials/layout";
+
 
 body {
     background-color: $mybodybackground;

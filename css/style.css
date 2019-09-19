@@ -63,7 +63,7 @@ button,
   display: inline-block;
   margin: .5em;
   border-radius: 2em;
-  border-color: 1px solid #060; }
+  border: 1px solid #060; }
   button:hover,
   .button:hover {
     background-color: #035;
@@ -74,5 +74,58 @@ button,
     color: #035;
     background-color: #7ab87a; }
 
+/* Responsive Image */
+img {
+  max-width: 100%;
+  height: auto; }
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
 body {
-  background-color: #7ab87a; }
+  font-size: 87.5%;
+  margin: 0; }
+
+.container {
+  padding: 0 4%;
+  margin: 0 auto; }
+
+@media (min-width: 786px) {
+  body {
+    font-size: 100%; } }
+
+@media (min-width: 1050px) {
+  .container {
+    max-width: 1050px; } }
+
+@media (min-width: 1250px) {
+  body {
+    font-size: 112.5%; } }
+
+/* Grid */
+.row .column {
+  margin-bottom: 2%; }
+
+@media (min-width: 786px) {
+  .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .column {
+    color: lightseagreen;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    margin: 1%; } }
+
+.row.demo .column {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 1em;
+  text-align: center; }
+
+body {
+  background-color: #7ab8ab; }

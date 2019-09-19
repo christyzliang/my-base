@@ -1,5 +1,5 @@
 // VARIABLES
-$mybodybackground: rgb(122, 184, 122);
+$mybodybackground: rgb(122, 184, 171);
 $body-font-family: 'quiche-sans', sans-serif;
 $heading-font-family: 'moderno-fb', serif;
 
@@ -21,6 +21,7 @@ $breakpoint-large: 1250px;
 @import "partials/buttons";
 @import "partials/media";
 @import "partials/layout";
+@import "partials/grid";
 
 
 body {

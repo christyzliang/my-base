@@ -1,14 +1,17 @@
 /* HEADINGS */
+
+h1, h2, h3 {
+    font-family: $heading-font-family;
+    margin: .5em 0;
+    font-weight: 400;
+}
 h1 {
-    font-family: 'moderno-fb', serif;
     font-size: 3em;
     margin: .5em 0;
     line-height:1 ;
-    color: rgb(3, 78, 15);
 }
 
 h2 {
-    font-family: 'quiche-sans', sans-serif;
     font-size: 2em;
     line-height: 1.1;
 }
@@ -37,22 +40,23 @@ a:hover { color: $color-links-dark;}
 
 
 /* HORIZONTAL RULE */
-
 hr {
     border: 0;
     height: 1px;
-    background-color: rgba(0,0,0,.15);
-    margin: 3em;
+    background-color: #ddd;
+    margin: 3em 0;
 }
 
 /* TYPE SPECIMEN */
 
 .mainhead {
     font-size: 6em;
-    $color-accent: rgba(1, 8, 0, 0.5);
+    color: $color-accent;
+    margin-bottom: 0;
 }
 
 .subhead {
-    $body-font-family: 'quiche-sans', sans-serif;
-    $color-midgrey: rgba(0, 0, 0, 0.5);
+    font-family: $body-font-family;
+    color: $color-midgrey;
+    margin-bottom: 1em;
 }

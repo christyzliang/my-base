@@ -1,5 +1,5 @@
 /* Site Header */
-.site-header {
+.site-header, .site-footer {
     background-color: $color-accent;
     padding: 1em;
     color: #ffffff;
@@ -14,8 +14,13 @@
 
     a {
         color: #ffffff;
-        text-decoration: none;
+        text-decoration: none; 
     }
+}
+/* Site Footer */
+.site-footer {
+    justify-content: center;
+    margin-top: 6em;
 }
 
 /* Site Navigation */
@@ -32,4 +37,16 @@
         padding: 1em;
     }
 
+}
+
+/* Site Hero */
+.hero {
+    background-color: $color-hero-bg;
+    padding: 15% 1em;
+    text-align: center;
+
+    p {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }

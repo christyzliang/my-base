@@ -1,29 +1,104 @@
-// VARIABLES
-$mybodybackground: rgb(122, 184, 171);
-$body-font-family: 'quiche-sans', sans-serif;
-$heading-font-family: 'moderno-fb', serif;
+<!DOCTYPE html>
+<html lang="en">
 
-// COLORS
-$color-text-body: rgba(0,0,0,.8);
-$color-accent: rbga(255,153,0,1);
-$color-midgrey: rbga(0,0,0,.5);
-$color-links: #060;
-$color-links-dark: #035;
+<head>
+  <meta charset="UTF-8" />
+  <title>My Base</title>
+  <meta name="description" content="A simple sassy css website starter." />
 
-//BREAKPOINTS
-$breakpoint-small: 786px;
-$breakpoint-medium: 1050px;
-$breakpoint-large: 1250px;
+  <!-- VIEWPORT FOR MOBILE -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-//IMPORT PARTIALS
-@import "partials/toc";  
-@import "partials/typography";
-@import "partials/buttons";
-@import "partials/media";
-@import "partials/layout";
-@import "partials/grid";
+  <!-- MAIN CSS FILE -->
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+
+  <!-- ADOBE FONT -->
+  <link rel="stylesheet" href="https://use.typekit.net/tnc2rnn.css">
 
 
-body {
-    background-color: $mybodybackground;
-}
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="site-id">
+      <h1><a href="#">Christy Z Liang</a></h1>
+    </div>
+    <nav class="site-nav">
+      <ul>
+        <li><a href="#">NMA</a></li>
+        <li><a href="#">Work</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    [ hero goes here ]
+  </section>
+
+
+
+  <div class="container">
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <p>I’m done. I’m done. It’s on. Bring it, as I say. I ain’t hidin’. So …
+      This is something <strong>Bold</strong> and this is something <em>Italic</em>. This is a <a href>Link</a>
+      you know … within that is tremendous focus, and tremendous clarity, and
+      tremendous peace. Because … look at what I’m dealing with, man. I’m
+      dealing with fools and trolls. And therefore there’s nothing in the middle. I don’t live in the middle anymore. That’s where you get slaughtered. That’s where you get embarrassed in front of the prom queen. And it’s just not an option.
+      
+      You know, they lay down with their ugly wives in front of their ugly children and just look at their loser lives and then they look at me and say, ‘I CAN’T PROCESS IT!’ Well, no, and you never will. Stop trying. Just sit back and enjoy the show …. You know? Yes! I don’t read anything after it’s come out, because I will not waste my precious time on such ridiculous nonsense. But I understand, according to you, that there was a lot of curiosity about the Vatican assassins. I just closed my eyes and in a nanosecond I cured myself from this ridiculous model of disease, addiction, and obsession. It’s just … It’s just the work of sissies. And therefore there’s nothing in the middle. I don’t live in the middle anymore. That’s where you get slaughtered. That’s where you get embarrassed in front of the prom queen. And it’s just not an option.</p>
+
+      <hr />
+
+    <h1 class="mainhead">
+      Headline Title
+    </h1>
+
+    <h2 class="subhead">
+      This is a subheader
+    </h2>
+
+    <p>I’m done. I’m done. It’s on. Bring it, as I say. I ain’t hidin’. So …
+      you know … within that is tremendous focus, and tremendous clarity, and
+      tremendous peace. Because … look at what I’m dealing with, man. I’m
+      dealing with fools and trolls. And therefore there’s nothing in the middle. I don’t live in the middle anymore. That’s where you get slaughtered. That’s where you get embarrassed in front of the prom queen. And it’s just not an option.
+      
+      You know, they lay down with their ugly wives in front of their ugly children and just look at their loser lives and then they look at me and say, ‘I CAN’T PROCESS IT!’ Well, no, and you never will. Stop trying. Just sit back and enjoy the show …. You know? Yes! I don’t read anything after it’s come out, because I will not waste my precious time on such ridiculous nonsense. But I understand, according to you, that there was a lot of curiosity about the Vatican assassins. I just closed my eyes and in a nanosecond I cured myself from this ridiculous model of disease, addiction, and obsession. It’s just … It’s just the work of sissies. And therefore there’s nothing in the middle. I don’t live in the middle anymore. That’s where you get slaughtered. That’s where you get embarrassed in front of the prom queen. And it’s just not an option.</p>
+
+
+      <button>This is a button</button>
+      <a class="button">This is a Button Link</a>
+      <a class="button alt">This is a Button Link Alt</a>
+
+      <img src="img/placeholder.gif" alt="Placeholder Image"/>
+
+      <h3>Grid</h3>
+      <div class="row demo">
+        <div class="column">Column</div>
+      </div>
+      <div class="row demo">
+        <div class="column one-half">&frac12; Column</div>
+        <div class="column one-half">&frac12; Column</div>
+      </div>
+      <div class="row demo">
+        <div class="column one-third">&frac13; Column</div>
+        <div class="column one-third">&frac13; Column</div>
+        <div class="column one-third">&frac13; Column</div>
+      </div>
+      <div class="row demo">
+        <div class="column one-third">&frac13; Column</div>
+        <div class="column two-thirds">&frac23; Column</div>
+      </div>
+      <div class="row demo">
+        <div class="column two-fourth">&frac14; Column</div>
+        <div class="column two-fourth">&frac14; Column</div>
+        <div class="column two-fourth">&frac14; Column</div>
+        <div class="column two-fourth">&frac14; Column</div>
+      </div>
+        
+  </div>
+</body>
+
+</html>

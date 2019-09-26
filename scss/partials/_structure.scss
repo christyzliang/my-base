@@ -1,0 +1,35 @@
+/* Site Header */
+.site-header {
+    background-color: $color-accent;
+    padding: 1em;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+
+    h1 {
+        font-family: $heading-font-family;
+        font-size: 1.5em;
+        margin: .5em 0 0 0; /* To adjust baseline with nav text */
+    }
+
+    a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+}
+
+/* Site Navigation */
+.site-nav {
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+    }
+
+    a {
+        display: block;
+        padding: 1em;
+    }
+
+}

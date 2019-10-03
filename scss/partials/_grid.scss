@@ -6,14 +6,27 @@
 $gutter-width: 1%;
 
 .row  .column { margin-bottom: $gutter-width; } 
+@media (max-width: $breakpoint-small - 1) {
+    .row {
+        margin-bottom: 6em;
+    }
+}
 
 // FLEXBOX 
 @media (min-width: $breakpoint-small) {
     .row {
         display: flex;
         justify-content: center;
+        align-items: center;
         margin-left: -$gutter-width/2;
         margin-right: -$gutter-width/2;
+
+        &.swap {
+            flex-direction: row-reverse;}
+        &.center {
+            flex-direction: column;
+            align-items: center;
+        }
 
         .column {
             flex-grow: 1; 
@@ -30,9 +43,9 @@ $gutter-width: 1%;
 
  .row.demo {
     //  background: yellow;
-     .column {
-         background: rgba(0,0,0,.5);
-         padding: 1em;
-         text-align: center;
-     }
- }
+    .column {
+        background: rgba(0,0,0,.5);
+        padding: 1em;
+        text-align: center;
+    }
+}

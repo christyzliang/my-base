@@ -2,4 +2,4 @@
 
 My ART 258 Class Exercise
 
-[View Demo](http://christyzliang.github.io/my-base/)
+[View Demo](https://christyzliang.github.io/my-base/)
